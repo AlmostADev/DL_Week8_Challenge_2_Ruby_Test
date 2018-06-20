@@ -1,9 +1,9 @@
 # Consejos para la realización de esta evaluación:
-    Leer la prueba completa antes de comenzar.
-    Copia de código fuente será castigada con nota 0.
-    Concentrarse en incluir la mayor cantidad de ítems funcionales posibles,
-    comenzar por los más fáciles.
-    Se puede utilizar: Google, StackOverflow, Blogs, material previo del curso, etc...
+Leer la prueba completa antes de comenzar.
+Copia de código fuente será castigada con nota 0.
+Concentrarse en incluir la mayor cantidad de ítems funcionales posibles,
+comenzar por los más fáciles.
+Se puede utilizar: Google, StackOverflow, Blogs, material previo del curso, etc...
 
 # Prueba de Ruby
 El objetivo de esta prueba es demostrar que se pueden resolver problemas básicos
@@ -17,17 +17,17 @@ mostrar los resultados que necesitemos en nuestras aplicaciones web.
 Buena suerte !!
 
 # Comienza la prueba
-    Se tiene un archivo con formato .csv que contiene nombres de alumnos con sus
-    respectivas notas.
-    Consejos para la realización de esta evaluación:
-    Prueba de Ruby
-    Comienza la prueba
-    El archivo tiene la siguiente estructura:
-    David, 9, 2, 5, 1, 1
-    Gonzalo, 10, 2, A, 8, 1
-    Mai, 10, 10, 9, 9, A
-    JP, 10, 10, 10, 10, 10
-    Donde la A señala que el alumno estuvo ausente en la prueba.
+Se tiene un archivo con formato .csv que contiene nombres de alumnos con sus
+respectivas notas.
+Consejos para la realización de esta evaluación:
+Prueba de Ruby
+Comienza la prueba
+El archivo tiene la siguiente estructura:
+David, 9, 2, 5, 1, 1
+Gonzalo, 10, 2, A, 8, 1
+Mai, 10, 10, 9, 9, A
+JP, 10, 10, 10, 10, 10
+Donde la A señala que el alumno estuvo ausente en la prueba.
 
 # Se pide:
 - Crear un menú con 4 opciones:
