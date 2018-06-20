@@ -1,21 +1,3 @@
-# Consejos para la realización de esta evaluación:
-Leer la prueba completa antes de comenzar.
-Copia de código fuente será castigada con nota 0.
-Concentrarse en incluir la mayor cantidad de ítems funcionales posibles,
-comenzar por los más fáciles.
-Se puede utilizar: Google, StackOverflow, Blogs, material previo del curso, etc...
-
-# Prueba de Ruby
-El objetivo de esta prueba es demostrar que se pueden resolver problemas básicos
-utilizando el lenguaje de programación Ruby.
-Los problemas a evaluar en esta prueba son del tipo abrir un archivo, procesar
-información y luego guardar los cambios en otro archivo.
-Para procesar la información ocuparemos principalmente Arrays y Hashes, y sus
-métodos más comunes, como .each, .count y .map
-Entender esta mecánica nos permitirá trabajar de forma sencilla con bases de datos y
-mostrar los resultados que necesitemos en nuestras aplicaciones web.
-Buena suerte !!
-
 # Comienza la prueba
 Se tiene un archivo con formato .csv que contiene nombres de alumnos con sus
 respectivas notas.
