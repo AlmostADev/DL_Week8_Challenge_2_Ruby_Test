@@ -11,6 +11,10 @@ loop do
     case opc
         when 1 #Listo
             puts "Generando archivo..."
+            file = File.open('alumnos.txt').read
+            new_file = File.open('alumnos.csv', 'w')
+            data = file.split
+            new_file.puts data[0]
         when 2 #Listo
             puts "Contando cantidad de inasistencias..."
         when 3 #Listo
