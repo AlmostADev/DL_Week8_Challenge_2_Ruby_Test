@@ -63,6 +63,15 @@ loop do
         #  se debe crear un método que reciba -como argumento- la nota necesaria pa
         #  aprobar, por defecto esa nota debe ser 5.
         when 3 #Listo
+            # if don't enter a min mark to evaluate, not_minima is 5.0
+            puts "Ingrese nota minima de aprobación", "\n"
+            nota = gets.chomp.to_f
+
+            if nota != 0 || nota.to_s.empty?
+                not_minima = nota
+            else
+                not_minima = 5.0
+            end
             approveStudents(data, not_minima)
         #4 Debe terminar el programa.
         when 4 #Listo
