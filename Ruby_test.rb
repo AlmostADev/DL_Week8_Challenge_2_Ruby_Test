@@ -2,6 +2,8 @@ file = File.open('alumnos.txt', 'r')
 data = file.readlines.each.map(&:chomp)
 file.close
 
+not_minima = 5.0
+
 def averageAlumnos(data)
     file2 = File.open('promedios.txt', 'w')
         data.each do |item|
@@ -30,7 +32,17 @@ end
 
 inasistenciasAlumnos(data)
 
-def approveStudents()
-
+def approveStudents(data, not_minima)
+    data.each do |item|
+        names = item.split(', ')[0]
+        marks = item.split(', ')[1..5].each.map(&:to_i)
+        avg = 0
+        marks.each do |mark|
+            avg += mark
+        end
+        promedio = avg / marks.length.to_f
+        puts "#{names} aprobado, Felicitaciones! :)" if promedio >= not_minima
+    end
 end
 
+approveStudents(data, not_minima)
