@@ -14,11 +14,11 @@ El archivo tiene la siguiente estructura:
 Donde la A señala que el alumno estuvo ausente en la prueba.
 
 # Se pide:
-- Crear un menú con 4 opciones: :white_check_mark:
+- Crear un menú con 4 opciones:
     Se debe validar, en caso que se ingrese otra opción, que la opción
     escogida sea 1, 2, 3, o 4. Por ende, si se ingresa cualquier otra opción el
     programa debe mostrar que la opción es inválida, mostrar nuevamente
-    el menú y la posibilidad de volver a ingresar una opción
+    el menú y la posibilidad de volver a ingresar una opción. :white_check_mark:
     - Opción 1: Debe generar un archivo con el nombre de cada alumno y el
     promedio de sus notas.
     Se puede leer el archivo completo o ir leyendo y procesando
